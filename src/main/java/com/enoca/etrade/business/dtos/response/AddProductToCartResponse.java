@@ -9,7 +9,5 @@ import lombok.NoArgsConstructor;
 @Data
 public class AddProductToCartResponse {
     private int id;
-   // private CustomerResponseDTO customer;
-   // private List<CartItemResponseDTO> items;
     private double totalPrice;
 }

@@ -10,7 +10,7 @@ import org.antlr.v4.runtime.misc.NotNull;
 @NoArgsConstructor
 @Data
 public class CreateCustomerRequest {
-    @NonNull
+    @NotNull
     private String firstName;
 
     @NotNull

@@ -11,6 +11,8 @@ import lombok.NoArgsConstructor;
 public class UpdateProductRequest {
     @NotNull
     private int id;
+    @NotNull
     private String firstName;
+    @NotNull
     private String lastName;
 }
