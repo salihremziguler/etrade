@@ -37,9 +37,6 @@ public class OrderManager implements OrderService {
         order.setCustomer(cart.getCustomer());
         order.setTotalPrice(cart.getTotalPrice());
 
-      //  Order order=this.modelMapperService.forResponse().map(createOrderRequest,Order.class);
-
-       // order.setItems(cart.getItems());
         List<OrderItem> orderItems=order.getItems();
 
         List<CartItem> cartItems = cart.getItems();
@@ -49,8 +46,7 @@ public class OrderManager implements OrderService {
             orderItem.setProduct(cartItem.getProduct());
             orderItem.setQuantity(cartItem.getQuantity());
             orderItem.setPrice(cartItem.getPrice());
-            //order.setItems(orderItem);
-            //orderItems.add(orderItem);
+
             order.getItems().add(orderItem);
         }
 

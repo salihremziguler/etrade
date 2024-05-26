@@ -11,8 +11,5 @@ import lombok.NoArgsConstructor;
 @Data
 public class CreateOrderRequest {
    private int cartId;
-  // private Customer customer;
-   //private OrderItem orderItem;
-
 
 }

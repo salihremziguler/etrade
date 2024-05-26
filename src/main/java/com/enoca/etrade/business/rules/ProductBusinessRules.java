@@ -1,10 +1,8 @@
 package com.enoca.etrade.business.rules;
 
 import com.enoca.etrade.business.abstracts.MessageService;
-import com.enoca.etrade.business.messages.Messages;
 import com.enoca.etrade.core.utilities.exceptions.types.BusinessException;
 import com.enoca.etrade.dataAccess.abstracts.ProductRepository;
-import com.enoca.etrade.entities.concretes.Cart;
 import com.enoca.etrade.entities.concretes.Product;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
