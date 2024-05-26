@@ -23,7 +23,6 @@ public class CartItemBusinessRules {
                 break;
             }
         }
-
             throw new BusinessException("Böyle bir ürün bulunmamaktadır.");
 
     }

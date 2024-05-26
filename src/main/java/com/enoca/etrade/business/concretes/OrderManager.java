@@ -49,7 +49,6 @@ public class OrderManager implements OrderService {
 
             order.getItems().add(orderItem);
         }
-
         cart.getItems().clear();
         cart.setTotalPrice(0);
         cartRepository.save(cart);
